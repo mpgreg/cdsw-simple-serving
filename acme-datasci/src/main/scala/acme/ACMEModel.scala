@@ -7,11 +7,11 @@
  * here compilable and usable in the software build. It is not directly used
  * in the workbench. 
  */
-//object ACMEModel {
+object ACMEModel {
   /** 
    * @return the data scientist's best model for the ACME data
    */
-//  def buildModel(): PipelineModel = {
+  def buildModel(): PipelineModel = {
 
 
 // Start workbench session
@@ -20,7 +20,7 @@
 /*
 %AddJar file:lib/acme-dataeng-1.0.0.jar
  */
-import com.cloudera.datascience.cdsw.acme.ACMEData
+//import com.cloudera.datascience.cdsw.acme.ACMEData
 import org.apache.spark.ml.classification.{LogisticRegression, LogisticRegressionModel}
 import org.apache.spark.ml.evaluation.BinaryClassificationEvaluator
 import org.apache.spark.ml.feature.VectorAssembler
@@ -83,5 +83,5 @@ validatorModel.validationMetrics.max
 pipelineModel
 // End workbench session
 
-//  }
-//}
+  }
+}
