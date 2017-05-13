@@ -1,3 +1,4 @@
+
 #download the data
 !curl -o occupancy_data.zip http://archive.ics.uci.edu/ml/machine-learning-databases/00357/occupancy_data.zip
 
