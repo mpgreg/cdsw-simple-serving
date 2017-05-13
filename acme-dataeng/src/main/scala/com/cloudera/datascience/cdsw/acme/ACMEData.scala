@@ -1,4 +1,4 @@
-package com.cloudera.datascience.cdsw.acme
+//package com.cloudera.datascience.cdsw.acme
 
 import sys.process._
 import org.apache.hadoop.fs.Path
@@ -7,7 +7,7 @@ import org.apache.spark.sql.{DataFrame, SparkSession}
 object ACMEData {
 
   /**
-   * Note that data should be set up by `upload-training-data.sh` before using this code.
+   * Note that data should be set up by `data-load.py` before using this code.
    *
    * @return DataFrame holding training data
    */
