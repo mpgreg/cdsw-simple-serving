@@ -6,10 +6,10 @@
 !unzip occupancy_data.zip
 
 #make a directory in HDFS
-!hdfs dfs -mkdir /tmp/clouderanM
+#!hdfs dfs -mkdir /tmp/clouderanM
 
 #put the training data in HDFS
-!hdfs dfs -put -f datatraining.txt /tmp/clouderanM
+!hdfs dfs -put -f datatraining.txt /tmp
 
 #delete the download remnants
 !rm occupancy_data.zip datatest.txt datatest2.txt datatraining.txt

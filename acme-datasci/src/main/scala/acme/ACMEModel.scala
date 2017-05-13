@@ -1,17 +1,17 @@
 // Don't execute these lines in the workbench -- skip to "Start workbench session"
-package acme
-import org.apache.spark.ml.PipelineModel
+//package acme
+//import org.apache.spark.ml.PipelineModel
 
 /**
  * The Scala object definition here is 'boilerplate' that makes the code
  * here compilable and usable in the software build. It is not directly used
  * in the workbench. 
  */
-object ACMEModel {
+//object ACMEModel {
   /** 
    * @return the data scientist's best model for the ACME data
    */
-  def buildModel(): PipelineModel = {
+//  def buildModel(): PipelineModel = {
 
 
 // Start workbench session
@@ -83,5 +83,5 @@ validatorModel.validationMetrics.max
 pipelineModel
 // End workbench session
 
-  }
-}
+//  }
+//}
