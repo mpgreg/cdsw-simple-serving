@@ -1,4 +1,4 @@
-//package com.cloudera.datascience.cdsw.acme
+package com.cloudera.datascience.cdsw.acme
 
 import sys.process._
 import org.apache.hadoop.fs.Path
