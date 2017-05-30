@@ -1,6 +1,6 @@
 // Don't execute these lines in the workbench -- skip to "Start workbench session"
 //package acme
-//import org.apache.spark.ml.PipelineModel
+import org.apache.spark.ml.PipelineModel
 
 /**
  * The Scala object definition here is 'boilerplate' that makes the code
@@ -17,9 +17,7 @@ object ACMEModel {
 // Start workbench session
 // Loads code in `acme-dataeng`. Normally this would be exported as a Maven
 // artifact and loaded with AddDeps, but for simplicity is a local JAR.
-/*
 %AddJar file:lib/acme-dataeng-1.0.0.jar
- */
 //import com.cloudera.datascience.cdsw.acme.ACMEData
 import org.apache.spark.ml.classification.{LogisticRegression, LogisticRegressionModel}
 import org.apache.spark.ml.evaluation.BinaryClassificationEvaluator
