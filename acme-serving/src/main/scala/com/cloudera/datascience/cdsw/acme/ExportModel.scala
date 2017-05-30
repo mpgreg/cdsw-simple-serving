@@ -1,5 +1,8 @@
 //package com.cloudera.datascience.cdsw.acme
 
+%AddDeps org.jpmml jpmml-converter 1.2.3
+%AddDeps org.jpmml jpmml-sparkml 1.2.0
+
 import java.nio.charset.StandardCharsets
 import java.nio.file.StandardOpenOption._
 import java.nio.file.{Files, Paths}
@@ -7,7 +10,7 @@ import javax.xml.transform.stream.StreamResult
 
 import org.dmg.pmml.Application
 import org.jpmml.model.JAXBUtil
-//import org.jpmml.sparkml.ConverterUtil
+import org.jpmml.sparkml.ConverterUtil
 
 //import acme.ACMEModel
 
